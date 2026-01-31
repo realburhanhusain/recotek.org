@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=https://recotek.org">
+    <link rel="canonical" href="https://recotek.org">
+    <title>Redirecting to Recotek.org</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #0f1419 0%, #1a1f2e 100%);
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .redirect-container {
+            max-width: 500px;
+            padding: 3rem;
+        }
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #f7931a;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            color: #a0aec0;
+        }
+        .spinner {
+            width: 50px;
+            height: 50px;
+            margin: 2rem auto;
+            border: 4px solid rgba(247, 147, 26, 0.3);
+            border-top: 4px solid #f7931a;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        a {
+            color: #f7931a;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="redirect-container">
+        <div class="logo">🪙</div>
+        <h1>Redirecting to Recotek</h1>
+        <p>You are being redirected to our main website...</p>
+        <div class="spinner"></div>
+        <p>If you are not redirected automatically, please <a href="https://recotek.org">click here</a>.</p>
+    </div>
+    <script>
+        // JavaScript redirect as fallback
+        window.location.href = "https://recotek.org";
+    </script>
+</body>
+</html>
